@@ -1,40 +1,21 @@
 package com.ray.java.core.app;
 
-import com.ray.java.core.basic.*;
+import com.ray.java.core.basic.AccessModifier;
 
 public class App 
 {
     public static void main( String[] args )
     {
-    	callBasic();
+    	System.out.println("hello world");
+    	
+    	testAccessModifier();
     }
     
-    private static void callBasic() {
-
-    	/**
-    	 * Basic
+    public static void testAccessModifier() {
+    	/*
+    	 * only public variable could be accessible, default(the same package), protected(the same package or extends), private(inner class)
     	 */
-    	//Basic javaBasic = new Basic();
-    	//javaBasic.helloWorld();
-    	
-    	/**
-    	 * DataType  
-    	 */
-    	//DataType javaDataType= new DataType();
-    	//javaDataType.printPrimitive();
-    	//javaDataType.convertPrimitive();
-    	//javaDataType.convertRefernece();
-    	
-    	/**
-    	 * Variable
-    	 */
-    	Variable javaVar = new Variable();
-    	Variable javaVar2 = new Variable();
-    	System.out.println("instanceVar = " + javaVar.instanceVar);
-    	System.out.println("staticVar = " + javaVar.staticVar);
-    	Variable.staticVar = 100;
-    	System.out.println("staticVar = " + javaVar.staticVar);
-    	
-    	
+    	AccessModifier am = new AccessModifier();
+    	System.out.println("publicVar = " + am.publicVar);
     }
 }
