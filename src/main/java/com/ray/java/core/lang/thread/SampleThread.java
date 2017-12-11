@@ -1,4 +1,4 @@
-package com.ray.java.core.thread;
+package com.ray.java.core.lang.thread;
 
 public class SampleThread implements Runnable {
 
