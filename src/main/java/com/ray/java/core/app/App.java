@@ -1,6 +1,6 @@
 package com.ray.java.core.app;
 
-import com.ray.java.core.basic.AccessModifier;
+import com.ray.java.basic.language.AccessModifier;
 
 public class App 
 {
