@@ -13,6 +13,7 @@
   <modules>
     <module>java-basic</module>
     <module>java-io</module>
+    <module>java-concurrent</module>
   </modules>
 
   <properties>

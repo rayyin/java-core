@@ -74,7 +74,6 @@ public class ControlFlow {
 	
 	public void swithStates() {
 		int index = 5;
-		
 		switch (index) {
 			case 1: 
 				System.out.println("index = 1");
