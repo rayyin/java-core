@@ -7,17 +7,17 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.*;
 
-public class ExecutorBasic {
+public class ExecutorUtil {
 
     public static void main(String[] args) {
-        ExecutorBasic executor = new ExecutorBasic();
-        //executor.executorServiceFixedThreadPool();
-        //executor.executorServiceFixedThreadPoolCallable();
-        //executor.executorServiceFixedThreadPoolCallableInvokeAll();
+        ExecutorUtil executor = new ExecutorUtil();
+        executor.executorServiceFixedThreadPool();
+        executor.executorServiceFixedThreadPoolCallable();
+        executor.executorServiceFixedThreadPoolCallableInvokeAll();
 
-        //executor.threadPoolExecutorFixedThreadPool();
-        //executor.threadPoolExecutorQueueOverload();
-        //executor.threadPoolExecutorQueue();
+        executor.threadPoolExecutorFixedThreadPool();
+        executor.threadPoolExecutorQueueOverload();
+        executor.threadPoolExecutorQueue();
     }
 
     private void executorServiceFixedThreadPool() {
