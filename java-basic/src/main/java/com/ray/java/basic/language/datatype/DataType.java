@@ -1,4 +1,4 @@
-package com.ray.java.basic.language;
+package com.ray.java.basic.language.datatype;
 
 import java.math.BigDecimal;
 

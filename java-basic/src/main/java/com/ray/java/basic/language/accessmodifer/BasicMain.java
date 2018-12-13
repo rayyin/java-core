@@ -1,4 +1,8 @@
-package com.ray.java.basic.language;
+package com.ray.java.basic.language.accessmodifer;
+
+import com.ray.java.basic.language.datatype.DataType;
+import com.ray.java.basic.language.keyword.Keyword;
+import com.ray.java.basic.language.variable.Variable;
 
 public class BasicMain {
 	

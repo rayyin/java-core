@@ -2,8 +2,9 @@ package com.ray.java.basic.language.accessmodifer;
 
 public class AccessModifier {
 
-    public int publicVar = 1;
-    private int privateVar = 2;
-    protected int protectedVar = 3;
-    int defaultVar = 4;
+    public String publicVar = "I am a public var";
+    private String privateVar = "I am a private var";;
+    protected String protectedVar = "I am a protected var";;
+    String defaultVar = "I am a default var";;
+
 }

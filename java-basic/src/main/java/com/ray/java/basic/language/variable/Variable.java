@@ -1,4 +1,4 @@
-package com.ray.java.basic.language;
+package com.ray.java.basic.language.variable;
 
 public class Variable {
 	public int instanceVar = 1;
